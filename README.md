@@ -25,30 +25,35 @@ from gtts import gTTS
  ```
 import os
 ```
+&nbsp;
 
 
 - Sırada ise metnimizi oluşturmak için bir değişken oluşturuyoruz bu değişkene sese çevrilmesini istediğimiz mesajı yazabiliriz
 ```
 text = 'Türk Hack Team, Türkiye'nin en eski siber güvenlik ve hacking forumlarından biridir.' 
 ```
+&nbsp;
 
 
 - Google gTTS Servislerini Türkçe kullanacağımızı belirten kodu yazıyoruz.
 ```
 language = 'tr'
 ```
+&nbsp;
 
 
 - Ara birim parametrelerini ayarlayalım yani ilk parametrede metni vereceğiz, metnin Türkçe olduğunu belirteceğiz sonrasında ise okuma hızının yavaş mı veya hızlı mı olacağını ayarlayacağız.
 ```
 speech = gTTS(text = text, lang = language, slow = False)
 ```
+&nbsp;
 
 
 - Speech parametreleri ayarladık şimdide dönüştürülen metnin kaydedilmesini sağlayan kodu yazıyoruz
 ```
 speech.save("tht.mp3")
 ```
+&nbsp;
 
 
 - Dönüştürülen sesin oynatılmasını sağlayan kodu yazıyoruz yani metnimizi dönüştürdü ve sırada bu dönüştürülen metni sesli bir şekilde oynatılmas
