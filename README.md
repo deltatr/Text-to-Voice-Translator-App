@@ -2,7 +2,7 @@
 
 Merhabalar, Bu konumuzda sizlerle birlikte Python kullanarak Yazıdan Sese çevirme uygulaması yapacağız. Bu sistemi kullanabilmek için Google'nin geliştirmiş olduğu bir servis var ve bu servise ulaşabilmemiz için Python'un geliştirmiş olduğu bir Kütüphaneyi yüklememiz gerekiyor ve bu kütüphaneyi kurmak içinse komut satırı arabirimimiz var. Komut satırının buradaki görevi Google'nin servisine ulaşabilmemiz için bir arabirim oluşturmaktır bunun için Google'nin TextToSpeech denilen kod arabirimini kullanacağız buna gTTS'de denilmekte. Bu işlemleri sırayla gerçekleştireceğiz.
 
-Kurulum
+# Kurulum
 
 - Bilgisayarımıza Python paketini kuralım
 https://www.python.org/downloads/
@@ -12,7 +12,7 @@ Yukarıda vermiş olduğum linkten istediğiniz sürümü indirip kurabilirsiniz
 pip install gTTS 
 yazıp ENTER tuşuna basıyoruz ve karşımıza kurulum mesajları gelecek herhangi bir işlem yapmamıza gerek yok otomatik kuracaktır ve işlem tamam.
 
-Kodlar
+# Kodlar
 
 - Kod kısmına geçelim. gTTS Kütüphanesini import ( içe aktarma )etmemiz gerekiyor kütüphane dosyalarını çekebilmemiz için
 from gtts import gTTS
