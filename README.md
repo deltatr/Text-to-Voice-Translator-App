@@ -15,7 +15,9 @@ yazıp ENTER tuşuna basıyoruz ve karşımıza kurulum mesajları gelecek herha
 # Kodlar
 
 - Kod kısmına geçelim. gTTS Kütüphanesini import ( içe aktarma )etmemiz gerekiyor kütüphane dosyalarını çekebilmemiz için
+'''
 from gtts import gTTS
+'''
 
 - İşletim sistemindeki dosyalara erişim için de bir import ( içe aktarma ) kodu ekliyoruz
 import os
