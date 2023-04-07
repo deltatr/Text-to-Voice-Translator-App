@@ -49,13 +49,15 @@ speech = gTTS(text = text, lang = language, slow = False)
 &nbsp;
 
 
-- Speech parametreleri ayarladık şimdide dönüştürülen metnin kaydedilmesini sağlayan kodu yazıyoruz
+- Speech parametreleri ayarladık şimdide dönüştürülen metnin kaydedilmesini sağlayan kodu yazıyoruz.
 ```
 speech.save("tht.mp3")
 ```
 &nbsp;
 
 
-- Dönüştürülen sesin oynatılmasını sağlayan kodu yazıyoruz yani metnimizi dönüştürdü ve sırada bu dönüştürülen metni sesli bir şekilde oynatılmas
-
+- Sistem, metnimizi dönüştürdü ve bu dönüştürülen metni sesli bir şekilde oynatılmasını sağlamak istiyoruz bunun için alttaki kodu yazalım.
+```
+os.system("start tht.mp3")
+```
 
