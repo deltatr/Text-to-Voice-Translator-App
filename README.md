@@ -19,30 +19,36 @@ yazıp ENTER tuşuna basıyoruz ve karşımıza kurulum mesajları gelecek herha
 from gtts import gTTS
 ```
 
+
 - İşletim sistemindeki dosyalara erişim için de bir import ( içe aktarma ) kodu ekliyoruz
  ```
 import os
 ```
+
 
 - Sırada ise metnimizi oluşturmak için bir değişken oluşturuyoruz bu değişkene sese çevrilmesini istediğimiz mesajı yazabiliriz
 ```
 text = 'Türk Hack Team, Türkiye'nin en eski siber güvenlik ve hacking forumlarından biridir.' 
 ```
 
+
 - Google gTTS Servislerini Türkçe kullanacağımızı belirten kodu yazıyoruz.
 ```
 language = 'tr'
 ```
+
 
 - Ara birim parametrelerini ayarlayalım yani ilk parametrede metni vereceğiz, metnin Türkçe olduğunu belirteceğiz sonrasında ise okuma hızının yavaş mı veya hızlı mı olacağını ayarlayacağız.
 ```
 speech = gTTS(text = text, lang = language, slow = False)
 ```
 
+
 - Speech parametreleri ayarladık şimdide dönüştürülen metnin kaydedilmesini sağlayan kodu yazıyoruz
 ```
 speech.save("tht.mp3")
 ```
+
 
 - Dönüştürülen sesin oynatılmasını sağlayan kodu yazıyoruz yani metnimizi dönüştürdü ve sırada bu dönüştürülen metni sesli bir şekilde oynatılmas
 
