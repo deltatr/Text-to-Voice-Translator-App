@@ -18,6 +18,7 @@ yazıp ENTER tuşuna basıyoruz ve karşımıza kurulum mesajları gelecek herha
 ```
 from gtts import gTTS
 ```
+&nbsp;
 
 
 - İşletim sistemindeki dosyalara erişim için de bir import ( içe aktarma ) kodu ekliyoruz
